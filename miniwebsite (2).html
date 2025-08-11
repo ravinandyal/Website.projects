@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+<link rel="stylesheet" href="r.css">
+
+</head>
+
+<body>
+
+
+
+
+<header class="header">
+  <nav class="navbar">
+  <h1>My blog</h1>
+  <input type="text" placeholder="Search..." class="search-bar">
+  <button id="btn" >🌙</button>
+ </nav>
+</header>
+
+
+
+
+
+<div class="main-container">
+ <aside class="sidebar">
+  <h3>category</h3>
+  <ul>
+<li><a href="#">web developer<a></li>
+<li> <a href="#">Css tips</a></li>
+<li><a href="#"> Response design</a></li>
+<li> <a href="#">UI/UX</a></li>
+</ul>
+</aside>
+ 
+
+
+
+
+
+
+<main class="second-main">
+<article class="blog-post">
+<img src="images (1) (30).jpeg" alt="Blog Post" >
+<h2>Getting Started with HTML and CSS & Java Script</h2>
+<p>Learn the basics of creating your first web page with HTML and styling it beautifully using CSS, and adding simple interactivity with JavaScript.</p>
+<a href="#" >Read more →</a>
+  </article>
+
+
+<article class="blog-post">
+ <img src="images (2) (1).jpeg" alt="Blog Post" alt="Blog Post">
+<h2>Getting Started with HTML</h2>
+<p>Learn the basics of creating your first web page with HTML, you will learn button tags  input tags etc</p>
+<a href="#" >Read more →</a> 
+</article>
+
+
+<article class="blog-post">
+ <img src="images (1) (31).jpeg" alt="Blog Post" alt="Blog Post">
+<h2>Getting Started with CSS</h2>
+<p>
+Lear creating your first web page with CSS and styling it beautifully using CSS, and classes, id, margins padding, etc.</p>
+<a href="#" >Read more →</a>   
+</article>
+
+
+<article class="blog-post">
+ <img src="images (12).png" alt="Blog Post" alt="Blog Post">
+<h2>Getting Started with Java Script</h2>
+<p>Learn the basics of creating your first web page with HTML, CSS, with JavaScript, you will learn dom, array, conditions, statement, etc.</p>
+<a href="#" >Read more →</a>   
+</article>
+
+  
+ </main>
+</div>
+
+<footer class="footer">
+<p>&copy; 2025 Ravikiran institute</p>    
+ </footer>
+    
+<script>
+
+var btn =
+document.querySelector("#btn");
+var body = document.body;
+
+btn.onclick = function(){
+body.classList.toggle("dark")
+} 
+
+
+   
+
+</script>
+
+
+</body>
+</html>
