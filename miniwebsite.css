@@ -127,5 +127,61 @@
    background:#1e1e1e;
    color:#f1f1f1;
  }
+ 
+  
+ div .us {
+     font-size:2rem;
+     font-weight:bold;
+     flex-wrap:wrap;
+     display:flex;
+     justify-content: center;
+     align-items:center;
+     margin-top:1rem;
+   
+     
+ }
+
+ div .h6 {
+    flex-wrap:wrap;
+     display:flex;
+     justify-content: center;
+     align-items:center; 
+ } 
+
+div .phone {
+display:flex;
+justify-content:space-between;
+margin-left:1.3rem;
+margin-right:1.3rem;
+font-weight:bold;
+margin-top:2rem;
+
+
+
+     
+}
+
+div .abc{
+   display:flex;
+   justify-content:space-between;
+   margin-left:1.3rem;
+   margin-right:3rem;
+   margin-top:0.1rem;
+      
+   }
+   
+
+ div .abcde{
+   display:flex;
+   justify-content:end;
+   margin-right:2rem;
+   margin-top:0.1rem;
+
+   
+  }
+ 
+
+
+
 
     
